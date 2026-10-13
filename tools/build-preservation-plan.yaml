@@ -1,0 +1,10 @@
+name: build-preservation-plan
+description: Build a preliminary preservation plan with priority indicators, evidence gaps, and expert-review actions.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [payload]
+  properties:
+    payload:
+      type: object
+      additionalProperties: true

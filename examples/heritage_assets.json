@@ -1,0 +1,45 @@
+{
+  "weights": {
+    "condition_score": 0.3,
+    "significance_score": 0.3,
+    "exposure_score": 0.2,
+    "urgency_score": 0.2
+  },
+  "assets": [
+    {
+      "asset_id": "HERITAGE-A",
+      "asset_type": "historic building",
+      "condition_score": 42,
+      "significance_score": 92,
+      "exposure_score": 78,
+      "urgency_score": 82,
+      "provenance_status": "partial",
+      "condition_evidence": "illustrative survey note",
+      "community_consultation_status": "pending",
+      "permissions_status": "not checked",
+      "notes": "Illustrative data only; urgent review label is not a treatment recommendation."
+    },
+    {
+      "asset_id": "HERITAGE-B",
+      "asset_type": "archival collection",
+      "condition_score": 76,
+      "significance_score": 85,
+      "exposure_score": 54,
+      "urgency_score": 48,
+      "provenance_status": "documented",
+      "condition_evidence": "illustrative survey note",
+      "community_consultation_status": "scheduled",
+      "permissions_status": "under review",
+      "notes": "Illustrative data only."
+    },
+    {
+      "asset_id": "HERITAGE-C",
+      "asset_type": "historic landscape",
+      "condition_score": 68,
+      "significance_score": 72,
+      "exposure_score": 88,
+      "urgency_score": 63,
+      "notes": "Illustrative data only; documentation gaps require review."
+    }
+  ]
+}

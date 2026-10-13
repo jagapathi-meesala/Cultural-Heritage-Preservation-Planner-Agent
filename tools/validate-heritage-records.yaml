@@ -1,0 +1,13 @@
+name: validate-heritage-records
+description: Validate heritage asset IDs and supplied scoring fields.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [assets]
+  properties:
+    assets:
+      type: array
+      minItems: 1
+      items:
+        type: object
+        additionalProperties: true

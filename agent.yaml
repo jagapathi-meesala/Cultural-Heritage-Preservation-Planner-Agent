@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: cultural-heritage-preservation-planner-agent
+version: "1.0.0"
+description: Organizes supplied heritage-site records into a transparent preliminary preservation plan with condition priorities, documentation gaps, and expert-review actions.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - heritage-record-validation
+  - preservation-priority-assessment
+  - conservation-plan-reporting
+tools:
+  - validate-heritage-records
+  - assess-preservation-priorities
+  - build-preservation-plan
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - cultural-heritage
+  - preservation-planning
+  - conservation
+  - documentation
